@@ -8,7 +8,7 @@ C++ - Simple yet effective Region Growing implementation for binary mesh segment
 
 ### Example usage
 
-![alt tag](https://raw.githubusercontent.com/lcit/BinaryRegionGrowing/master/BinaryRegionGrowing_example.JPG)
+![alt tag](https://raw.githubusercontent.com/lcit/BinaryRegionGrowing/master/BinaryRegionGrowing_example.png)
 
 ```C++
 #include "BinaryRegionGrowing.hpp"

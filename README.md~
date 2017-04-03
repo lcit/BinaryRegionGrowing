@@ -1,6 +1,6 @@
 # Binary Region Growing
 
-C++ - Simple yet effective Region Growing implementation for binary region segmentation.
+C++ - Simple yet effective Region Growing implementation for binary mesh segmentation.
 
 ### Prerequisites
 
