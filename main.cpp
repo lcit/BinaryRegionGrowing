@@ -65,7 +65,7 @@ int main(int argc, char* argv[]){
     for(size_t i=0; i<4; i++){
         std::cout << "|";
         for(size_t j=0; j<4; j++)
-            std::cout << " " << region[i*4+j] << " |";
+            std::cout << " " << regions[i*4+j] << " |";
         std::cout << "\n|---------------|" << std::endl;
     }
     
