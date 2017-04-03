@@ -4,7 +4,7 @@ C++ - Simple yet effective Region Growing implementation for binary mesh segment
 
 ### Prerequisites
 
-
+-
 
 ### Example usage
 
@@ -34,11 +34,11 @@ int main(int argc, char* argv[]){
                                                 {15,11,14,-1,-1}
                                             }};
 
-    Array1D<bool,16> values = {  false,false,true,false,
-                                false,false,true,false,
-                                true,true,true,true,
-                                false,false,false,false
-                            };
+    Array1D<bool,16> values = {  false,false,true, false,
+                                 false,false,true, false,
+                                 true, true, true, true,
+                                 false,false,false,false
+                              };
     
     BinaryRegionGrowing<16,5> brg(neighbour_indexes);
     Array1D<int,16> regions = brg.run(values);
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
 
 ## Performance
 
-Tests effectuated on a single thread of an Intel quad-core hyperthreading i7-4700MQ 2.4GHz 64 bits architecture:
+Tests effectuated on a single thread of an Intel quad-core hyperthreading i7-4700MQ 2.4GHz 64 bits architecture.
 The time required to segment a mesh of 92 nodes is 13 [us].
 The time required to segment a mesh of 252 nodes is 92 [us].
 
