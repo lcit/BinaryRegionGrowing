@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/Desktop/region_growing/BinaryRegionGrowing.hpp
+array
+-
+vector
+-
+algorithm
+-
+iostream
+-
+
+/home/leo/Desktop/region_growing/main.cpp
+BinaryRegionGrowing.hpp
+/home/leo/Desktop/region_growing/BinaryRegionGrowing.hpp
+iostream
+-
+
