@@ -43,6 +43,8 @@ int main(int argc, char* argv[]){
     BinaryRegionGrowing<16,5> brg(neighbour_indexes);
     Array1D<int,16> regions = brg.run(values);
 
+	std::cout << "Total number of regions: " << brg.get_nb_regions() << "\n";
+
     return 0;
 }
 ```

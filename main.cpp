@@ -80,5 +80,7 @@ int main(int argc, char* argv[]){
     // | 3 | 3 | 3 | 3 |
     // |---------------|
     
+    std::cout << "Total number of regions: " << brg.get_nb_regions() << "\n";
+    
     return 0;
 }

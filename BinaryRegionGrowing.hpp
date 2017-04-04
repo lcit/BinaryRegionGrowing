@@ -45,6 +45,7 @@ template<int M, int N>
 class BinaryRegionGrowing{
 private:
     const Array2D<int,M,N> _neighbour_indexes;
+    unsigned _nb_regions;
 
 public:
     BinaryRegionGrowing(const Array2D<int,M,N>& neighbour_indexes)
@@ -81,7 +82,12 @@ public:
                 current_region_n++;
             }
         }
+        _nb_regions = current_region_n;
         return regions;
+    }
+    
+    auto get_nb_regions() const {
+        return _nb_regions;
     }
     
 private:

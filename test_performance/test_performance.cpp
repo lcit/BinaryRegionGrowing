@@ -46,8 +46,6 @@ struct mean_stddev {
     }
 };
 
-using TYPE = float;
-
 int main(int argc, char* argv[]) {
     
     Array2D<int,92,6> neighbour_indexes_92 = {{
