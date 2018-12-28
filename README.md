@@ -6,6 +6,12 @@ C++ - Simple yet effective Region Growing implementation for binary mesh segment
 
 -
 
+### Run example
+```
+./clean.sh; ./build.sh
+./run.sh
+```
+
 ### Example usage
 
 ![alt tag](https://raw.githubusercontent.com/lcit/BinaryRegionGrowing/master/BinaryRegionGrowing_example.png)
@@ -39,7 +45,7 @@ int main(int argc, char* argv[]){
                                  true, true, true, true,
                                  false,false,false,false
                               };
-    
+
     BinaryRegionGrowing<16,5> brg(neighbour_indexes);
     Array1D<int,16> regions = brg.run(values);
 
@@ -61,4 +67,3 @@ The time required to segment a mesh of 252 nodes is 92 [us].
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
